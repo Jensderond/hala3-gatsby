@@ -1,12 +1,13 @@
 ---
 name: 19-20-zoektocht-nieuwe-keeper
 title: Nieuwe doelverdediger gezocht!
-year: 19 juli 2019
+date: 19-08-2019
 thumbnail: /uploads/zoektocht-keeper.jpg
 description: >-
   Door het super seizoen van Kjeld N. was er veel belangstelling in de jonge
-  doelverdediger.
+  doelverdediger...
 ---
+
 ## De zoektocht naar een nieuwe keeper voor de jongens van Hala 3 is begonnen.
 
 Door het super seizoen van **Kjeld N.** was er veel belangstelling in de jonge doelverdediger. Na een flinke onderhandeling is Hala 3 eruit gekomen met de jongens van **Tholense Boys O17**. Kjeld vertrekt per direct en zal ook in de voorbereiding niet aanwezig zijn bij Hala 3.

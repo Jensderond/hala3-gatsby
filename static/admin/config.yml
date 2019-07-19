@@ -15,7 +15,7 @@ collections:
     fields:
       - {label: "Naam van bestand", name: "name", widget: "string"}
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Datum", name: "year", widget: "string"}
+      - {label: "Datum", name: "year", widget: "date"}
       - {label: "Afbeelding", name: "thumbnail", widget: "image"}
       - {label: "Beschrijving (1 a 2 regels)", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
