@@ -1,7 +1,7 @@
 ---
 name: 19-20-zoektocht-nieuwe-keeper
 title: Nieuwe doelverdediger gezocht!
-date: 19-08-2019
+year: 2019-07-19T14:28:50.624Z
 thumbnail: /uploads/zoektocht-keeper.jpg
 description: >-
   Door het super seizoen van Kjeld N. was er veel belangstelling in de jonge
