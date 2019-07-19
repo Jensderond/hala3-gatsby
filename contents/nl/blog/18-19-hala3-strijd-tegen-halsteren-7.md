@@ -2,11 +2,12 @@
 name: 18-19-hala3-strijd-tegen-halsteren-7
 title: Hala 3 gaat de strijd aan met Halsteren 7
 date: 2019-04-06T17:23:03.020Z
-thumbnail: /uploads/14-04-19-field-by-night.jpg
+thumbnail: /uploads/no-photo-today.png
 description: >-
   Vandaag stond de wedstrijd tegen Halsteren 7 op het programma. Dit is zo'n pot
   waar vrijwel alles kan gebeuren...
 ---
+
 Vandaag stond de wedstrijd tegen Halsteren 7 op het programma.
 
 De eerste en tweede helft werden helaas verloren.
