@@ -1,28 +1,24 @@
 <template>
-<div class="sidenav-container">
-  <div
-    v-if="show"
-    class="sidenav-backdrop"
-    @click="$emit('close')"></div>
-  <transition name="slide-side">
-    <div
-      v-if="show"
-      class="sidenav">
-      <LangSwitcher v-if="altRoutes" class="lang-switcher--white"/>
-      <NavItems @click="$emit('close')"/>
-    </div>
-  </transition>
-</div>
+  <div class="sidenav-container">
+    <div v-if="show" class="sidenav-backdrop" @click="$emit('close')"></div>
+    <transition name="slide-side">
+      <div v-if="show" class="sidenav">
+        <LangSwitcher v-if="altRoutes" class="lang-switcher--white" />
+        <NavItems @click="$emit('close')" />
+      </div>
+    </transition>
+  </div>
 </template>
 
 <script>
-import NavItems from '~/components/Navigation/NavItems'
-import LangSwitcher from '~/components/LangSwitcher'
+import NavItems from "~/components/Navigation/NavItems";
+import LangSwitcher from "~/components/LangSwitcher";
 
 export default {
   name: "TheSidenav",
   components: {
-    NavItems, LangSwitcher
+    NavItems,
+    LangSwitcher
   },
   props: {
     show: {
@@ -31,11 +27,16 @@ export default {
     }
   },
   computed: {
-    altRoutes () {
-      return this.$route.path === '/' || this.$route.path === '/es' || this.$route.path === '/blog' || this.$route.path === '/es/blog'
+    altRoutes() {
+      return (
+        this.$route.path === "/" ||
+        this.$route.path === "/es" ||
+        this.$route.path === "/blog" ||
+        this.$route.path === "/es/blog"
+      );
     }
   }
-}
+};
 </script>
 
 
@@ -58,7 +59,7 @@ export default {
 .sidenav {
   height: auto;
   width: 100%;
-  background-color: $primary;
+  background-color: $yellow-1;
   z-index: 10000;
   position: fixed;
   top: 0;
@@ -82,7 +83,7 @@ export default {
   margin: 0;
   flex-direction: column;
 
-  @media (min-width: $screen-sm){
+  @media (min-width: $screen-sm) {
     flex-direction: row;
   }
 }

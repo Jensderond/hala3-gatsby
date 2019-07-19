@@ -4,6 +4,7 @@
       <nuxt-link to="/" class="the-header__link-logo">
         <img src="~/assets/images/thb-icon-header.png" alt="Logo THB" class="the-header__logo" />
       </nuxt-link>
+      <h2 class="header__title">Hala 3</h2>
       <TheSideNavToggle @toggle="$emit('sidenavToggle')" />
       <div class="navigation-items">
         <NavItems />
@@ -24,12 +25,7 @@ export default {
   },
   computed: {
     altRoutes() {
-      return (
-        this.$route.path === "/" ||
-        this.$route.path === "/es" ||
-        this.$route.path === "/blog" ||
-        this.$route.path === "/es/blog"
-      );
+      return this.$route.path === "/" || this.$route.path === "/blog";
     }
   }
 };
@@ -38,6 +34,7 @@ export default {
 
 <style lang="scss">
 .the-header {
+  position: fixed;
   width: 100%;
   height: 6rem;
   display: flex;
@@ -73,6 +70,14 @@ export default {
 
 .logo {
   font-size: 1.3rem;
+}
+
+.header__title {
+  padding: 0;
+  margin: 0;
+  @media (max-width: $screen-sm) {
+    font-size: 2rem;
+  }
 }
 
 .spacer {

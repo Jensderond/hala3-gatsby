@@ -1,5 +1,6 @@
 <template>
   <div class="blogSelected">
+    <progress-bar :value="progress" />
     <div class="intro">
       <div class="elevate-cover">
         <div class="elevate-cover__textOffset">
@@ -35,7 +36,7 @@
         <component v-else class="elevate-cover__img" :is="extraComponentLoader" />
       </div>
     </div>
-    <div class="container small">
+    <div class="container small" ref="text">
       <no-ssr>
         <DynamicMarkdown
           :render-func="renderFunc"
@@ -66,16 +67,18 @@
 </template>
 
 <script lang="js">
+import ProgressBar from "~/components/Navigation/ProgressBar";
 import DynamicMarkdown from "~/components/Markdown/DynamicMarkdown.vue"
 
 export default {
-  components: { DynamicMarkdown},
+  components: { DynamicMarkdown, ProgressBar},
 
   async asyncData ({params, app}) {
     const fileContent = await import(`~/contents/${app.i18n.locale}/blog/${params.slug}.md`)
     const attr = fileContent.attributes
-    console.log(attr)
     return {
+      progress: 0,
+      scrollActive: false,
       name: params.slug,
       title: attr.title,
       trans: attr.trans,
@@ -99,14 +102,17 @@ export default {
     }
   },
 
-  data() {
-    return {
-      scrollActive: false,
-    }
-  },
-
   methods: {
     handleScroll () {
+      const progress = (window.scrollY / window.scrollMaxY) / 100 * 100
+      if (progress > 1) {
+        this.progress = 1
+      } else if (progress < 0) {
+        this.progress = 0
+      } else {
+        this.progress = progress
+      }
+
       if(window.scrollY >= 100 && this.scrollActive === true) return
       if(window.scrollY < 100 && this.scrollActive === false) return
       if(window.scrollY >= 100) this.scrollActive = true;
@@ -117,6 +123,9 @@ export default {
       if (process.client) { 
           window.scrollTo(0, 0);
           window.addEventListener('scroll', this.handleScroll);
+          this.$store.commit('setCurrentBlogProgress', {
+            progress: window.scrollMaxY
+          })
       }
   },
   destroyed () {
@@ -210,7 +219,7 @@ export default {
     max-width: 500px;
     width: 100%;
     padding: 2.4rem;
-    margin-bottom: auto;
+    // margin-bottom: auto;
 
     @media (min-width: $screen-md) {
       margin-left: auto;
@@ -256,7 +265,7 @@ export default {
   }
 
   @media (min-width: $screen-sm) {
-    padding: 7.2rem 0;
+    padding: 3.2rem 0;
     font-size: 19px;
   }
 

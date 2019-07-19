@@ -13,7 +13,7 @@
     margin-bottom: 2rem;
 
     a {
-      color: white;
+      color: black;
     }
 
     &:last-child {
