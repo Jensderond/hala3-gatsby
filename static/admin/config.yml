@@ -11,6 +11,7 @@ collections:
     label: "Blog"
     folder: "contents/nl/blog"
     create: true
+    identifier_field: name
     fields:
       - {label: "Naam van bestand", name: "name", widget: "string"}
       - {label: "Titel", name: "title", widget: "string"}
