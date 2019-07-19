@@ -46,7 +46,7 @@ export default {
         this.imageURL.substring(0, 1) === "/"
           ? this.imageURL
           : "/" + this.imageURL;
-      return require(`../assets/images${url}`);
+      return require(`../static/images${url}`);
     },
     isRounded() {
       return this.rounded ? "image-placeholder--rounded" : "";
