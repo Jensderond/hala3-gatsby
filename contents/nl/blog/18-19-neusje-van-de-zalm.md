@@ -1,7 +1,7 @@
 ---
 name: "18-19-neusje-van-de-zalm"
 title: Het neusje van de zalm van de kelderklasse.
-year: 16 april 2019
+date: 2019-04-16T14:28:50.624Z
 color: "#8e7964"
 trans: "blog-usando-vue-nuxt-markdown"
 id: "16-04-19"

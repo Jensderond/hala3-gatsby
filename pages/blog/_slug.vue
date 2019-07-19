@@ -21,7 +21,7 @@
             </nuxt-link>
           </div>
           <div class="elevate-cover__left">
-            <span class="blogSelected-year">{{ year }}</span>
+            <span class="blogSelected-year">{{ year | date }}</span>
             <h1 class="elevate-cover__title">{{ title }}</h1>
             <p class="elevate-cover__description">{{ description }}</p>
           </div>
@@ -67,6 +67,7 @@
 </template>
 
 <script lang="js">
+import dayjs from 'dayjs';
 import ProgressBar from "~/components/Navigation/ProgressBar";
 import DynamicMarkdown from "~/components/Markdown/DynamicMarkdown.vue"
 
@@ -82,7 +83,7 @@ export default {
       name: params.slug,
       title: attr.title,
       trans: attr.trans,
-      year: attr.year,
+      year: attr.date,
       id: attr.id,
       owner: attr.owner,
       colors: attr.colors,
@@ -118,6 +119,9 @@ export default {
       if(window.scrollY >= 100) this.scrollActive = true;
       if(window.scrollY < 100) this.scrollActive = false;
     }
+  },
+  filters: {
+    date: value => dayjs(value).format('DD/MM/YY'),
   },
   mounted () {
       if (process.client) { 

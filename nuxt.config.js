@@ -32,7 +32,7 @@ module.exports = {
       { property: 'og:image:width', content: '960' },
       { property: 'og:image:height', content: '637' },
       { property: 'og:image:alt', content: 'Teamfoto Hala 3' },
-      { property: 'og:description', content: 'Tholense boys 3, een team vol vrienden en gezelligheid. Een familie onderling. Van hoogstaand voetbal hoef je niet uit te gaan, maar gezelligheid staat voorop. HALA 3!' }
+      { property: 'og:description', content: 'Tholense boys 3, een team vol vrienden en gezelligheid. Een familie onderling. Van hoogstaand voetbal hoef je niet uit te gaan, maar gezelligheid staat voorop. HALA 3!', hid: 'description' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicons/favicon-16x16.png', sizes: '16x16' },

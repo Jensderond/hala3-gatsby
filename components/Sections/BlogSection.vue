@@ -9,7 +9,7 @@
       </div>
     </div>
     <ul class="blogs">
-      <blog-card v-for="blog in blogs" :key="blog.name" :blog="blog" />
+      <blog-card v-for="blog in sortByDate" :key="blog.name" :blog="blog" />
     </ul>
   </section>
 </template>
@@ -21,6 +21,11 @@ export default {
   props: {
     blogs: {
       type: Array
+    }
+  },
+  computed: {
+    sortByDate() {
+      return this.blogs.sort((a, b) => new Date(b.date) - new Date(a.date));
     }
   }
 };

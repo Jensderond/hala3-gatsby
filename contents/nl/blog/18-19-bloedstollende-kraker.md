@@ -1,7 +1,7 @@
 ---
 name: "18-19-bloedstollende-kraker"
 title: Hala 3 pakt punt in bloedstollende kraker!
-year: 4 mei 2019
+date: 2019-05-04T14:28:50.624Z
 id: "04-05-19"
 thumbnail: uploads/040519_field_net_thumbnail.jpg
 description: |
