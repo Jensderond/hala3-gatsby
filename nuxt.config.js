@@ -100,11 +100,17 @@ module.exports = {
         });
     }
   },
-  plugins: ['~/plugins/lazyload', '~/plugins/globalComponents', { src: '~plugins/ga.js', ssr: false }],
+  plugins: ['~/plugins/lazyload', '~/plugins/globalComponents'],
   modules: [
     '@nuxtjs/style-resources',
     ['nuxt-i18n', I18N],
-    'nuxt-webfontloader'
+    'nuxt-webfontloader',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-49648465-10',
+      set: [
+        { field: 'anonymizeIp', value: true }
+      ],
+    }]
   ],
 
   styleResources: {
