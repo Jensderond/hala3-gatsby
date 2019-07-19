@@ -5,6 +5,7 @@ year: 16 april 2019
 color: "#8e7964"
 trans: "blog-usando-vue-nuxt-markdown"
 id: "16-04-19"
+thumbnail: uploads/14-04-19-field-by-night.jpg
 description: |
   Klein hoogtepuntjes waren toch wel de acties en passjes van linksback Collin Van de Velde.
 ---

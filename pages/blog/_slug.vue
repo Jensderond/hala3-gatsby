@@ -26,7 +26,7 @@
           </div>
         </div>
         <ImageResponsive
-          :imageURL="'blog/' + id + '/_main.jpg'"
+          :imageURL="thumbnail"
           v-if="!noMainImage"
           width="100%"
           class="elevate-cover__img"
@@ -74,6 +74,7 @@ export default {
   async asyncData ({params, app}) {
     const fileContent = await import(`~/contents/${app.i18n.locale}/blog/${params.slug}.md`)
     const attr = fileContent.attributes
+    console.log(attr)
     return {
       name: params.slug,
       title: attr.title,
@@ -86,6 +87,7 @@ export default {
       cardAlt: attr.cardAlt,
       noMainImage: attr.noMainImage,
       description: attr.description,
+      thumbnail: attr.thumbnail,
       related: attr.related,
       extraComponent: attr.extraComponent,
       renderFunc: fileContent.vue.render,
@@ -150,7 +152,7 @@ export default {
 
   computed: {
     ogImage () {
-      return `${process.env.baseUrl}/images/blog/${this.id}/_thumbnail.jpg`;
+      return `${process.env.baseUrl}/images/${this.thumbnail}`;
     },
     pageTitle () {
       return this.title + ' – Hala 3';

@@ -3,6 +3,7 @@ name: "18-19-bloedstollende-kraker"
 title: Hala 3 pakt punt in bloedstollende kraker!
 year: 4 mei 2019
 id: "04-05-19"
+thumbnail: uploads/040519_field_net_thumbnail.jpg
 description: |
   Vandaag stond er opnieuw een derby op het programma voor de boys. Stavenisse 2 was de tegenstander. Vorig jaar werd deze wedstrijd met een 5-1 overwinning afgesloten...
 ---

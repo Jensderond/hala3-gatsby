@@ -41,18 +41,17 @@ export default {
     }
   },
   computed: {
-    imageRequired () {
-      return require(`../assets/images/${this.imageURL}`)
+    imageRequired() {
+      return require(`../assets/images/${this.imageURL}`);
     },
-    isRounded () {
-      return this.rounded ? 'image-placeholder--rounded' : ''
+    isRounded() {
+      return this.rounded ? "image-placeholder--rounded" : "";
     }
   }
-}
+};
 </script>
 
 <style scoped lang="scss">
-
 .image-placeholder {
   overflow: hidden;
   line-height: 0;
@@ -63,16 +62,15 @@ export default {
 }
 
 img {
-  transition: all ease .3s;
+  transition: all ease 0.3s;
   opacity: 0;
 
-  &[lazy='loading'] {
+  &[lazy="loading"] {
     opacity: 1;
     filter: blur(15px);
   }
-  &[lazy='loaded'] {
+  &[lazy="loaded"] {
     opacity: 1;
   }
 }
-
 </style>
