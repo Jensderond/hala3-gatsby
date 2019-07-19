@@ -151,8 +151,9 @@ export default {
       meta: [
         { name: "author", content: "Hala 3" },
         { name: "description", property: "og:description", content: this.description, hid: "description" },
+        { property: "og:url", content: 'https://www.hala3.nl' + this.$route.path, hid: "url" },
         { property: "og:title", content: this.pageTitle },
-        { property: "og:image", content: this.ogImage },
+        { property: "og:image", content: this.ogImage, hid: "previewimage" },
         { name: "twitter:description", content: this.description },
         { name: "twitter:image", content: this.ogImage }
       ],
@@ -165,7 +166,11 @@ export default {
 
   computed: {
     ogImage () {
-      return `${process.env.baseUrl}/images/${this.thumbnail}`;
+      const url =
+        this.thumbnail.substring(0, 1) === "/"
+          ? this.thumbnail
+          : "/" + this.thumbnail;
+      return `${process.env.baseUrl}/images${url}`;
     },
     pageTitle () {
       return this.title + ' – Hala 3';
