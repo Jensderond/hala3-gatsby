@@ -130,7 +130,6 @@ const Tag = styled.span`
 
 const ListGrid = props => {
   return (
-
     <List>
       {props.posts.map(({ node: post }) => (
         <Item key={post.frontmatter.title}>
@@ -148,14 +147,13 @@ const ListGrid = props => {
               {post.frontmatter.cover === null ? (
                 <Placeholder aspectRatio={2 / 1} />
               ) : (
-                  ''
-                )}
+                ''
+              )}
             </Link>
           </ImageContainer>
           <TextContainer>
             <Link to={props.context.basePath + post.fields.slug}>
               <Title>{post.frontmatter.title}</Title>
-              {/* <Excerpt>{post.excerpt}</Excerpt> */}
               <Excerpt>{post.frontmatter.description}</Excerpt>
             </Link>
             <AdditionalContainer>
@@ -184,18 +182,3 @@ const ListGrid = props => {
   )
 }
 export default ListGrid
-
-export const query = graphql`
-  query {
-    allMarkdownRemark {
-      nodes {
-        frontmatter {
-          title
-          description
-          date(formatString: "MMMM DD, YYYY")
-          tags
-        }
-      }
-    }
-  }
-`

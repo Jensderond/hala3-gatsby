@@ -11,6 +11,11 @@ module.exports = {
         name: 'Hala 3',
         slug: '/',
       },
+      {
+        name: 'Facebook',
+        slug: 'https://www.facebook.com/TholenseBoys3',
+        external: true,
+      },
     ],
     footerLinks: [
       {

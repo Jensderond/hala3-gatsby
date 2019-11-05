@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Intro from 'gatsby-theme-amsterdam/src/components/Intro'
-import PostList from 'gatsby-theme-amsterdam/src/components/PostList'
+import PostList from '../gatsby-theme-amsterdam/components/PostList'
 import SEO from 'gatsby-theme-amsterdam/src/components/SEO'
 import Pagination from 'gatsby-theme-amsterdam/src/components/Pagination'
 import Container from 'gatsby-theme-amsterdam/src/components/Container'
@@ -49,7 +49,7 @@ export const postsQuery = graphql`
             title
             tags
             description
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD MMMM YYYY")
             cover {
               childImageSharp {
                 fluid(maxWidth: 1000) {

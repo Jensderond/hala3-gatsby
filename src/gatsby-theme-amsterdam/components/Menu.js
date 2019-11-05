@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
-import { useSiteMetadata } from 'gatsby-theme-amsterdam/src/hooks/use-site-metadata'
+import { useSiteMetadata } from '../hooks/use-site-metadata'
 
 const Header = styled.header`
   transition: max-height 0.5s cubic-bezier(0.52, 0.16, 0.24, 1), border 0.3s;
@@ -28,6 +28,7 @@ const Nav = styled.nav`
   width: 100%;
   margin: 0 auto;
   padding: 0 1.5rem;
+  display: flex;
 `
 
 const List = styled.ul`
@@ -41,6 +42,7 @@ const List = styled.ul`
     justify-content: flex-end;
     padding: 0;
   }
+  width: 100%;
 `
 
 const Item = styled(motion.li)`
@@ -83,6 +85,12 @@ const Item = styled(motion.li)`
       color: ${props => props.theme.colors.text} !important;
     }
   }
+`
+
+const Image = styled.img`
+  margin: 5px 10px 0 0;
+  width: 50px;
+  display: inline-flex;
 `
 
 const Toggle = styled.button`
@@ -159,7 +167,14 @@ const Menu = () => {
           <span />
           <span />
         </Toggle>
-        <img src=".https://d33wubrfki0l68.cloudfront.net/c42a6a60278513ee71fed9bc1c5fa0829ced071b/cb90d/_nuxt/0cc4f081170efbe586a309fae225180c-50.png" alt="Hala 3 logo" />
+        <Link to={'/'} onClick={close}>
+          <Image
+            src={`../../thb-logo.png`}
+            width="50"
+            height="50"
+            alt="Hala 3 logo"
+          />
+        </Link>
         <List open={isOpen}>
           {menuLinks.map(link => (
             <Item
@@ -168,9 +183,21 @@ const Menu = () => {
               animate={isOpen ? 'open' : 'closed'}
               key={link.name}
             >
-              <Link to={link.slug} onClick={close}>
-                {link.name}
-              </Link>
+              {link.external === true && (
+                <a
+                  href={link.slug}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={close}
+                >
+                  {link.name}
+                </a>
+              )}
+              {link.external !== true && (
+                <Link to={link.slug} onClick={close}>
+                  {link.name}
+                </Link>
+              )}
             </Item>
           ))}
         </List>
