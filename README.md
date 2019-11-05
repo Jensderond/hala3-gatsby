@@ -1,7 +1,35 @@
-# Gatsby Starter Amsterdam
+<h1 align="center">Welcome to hala3 (gatsby) 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/node-%3E%3D8.0.0-blue.svg" />
+  <img src="https://img.shields.io/badge/npm-%3E%3D5.0.0-blue.svg" />
+</p>
 
-A basic starter using **Gatsby Theme Amsterdam**.
+## Prerequisites
 
-- [Theme Documentation](https://github.com/ryanwiemer/gatsby-theme-amsterdam)
-- [Theme Website](https://amsterdam.netlify.com/)
-- [Demo](https://gatsby-starter-amsterdam.netlify.com/)
+- node >=8.0.0
+- npm >=5.0.0
+
+## Install
+
+```sh
+npm install
+```
+
+## Usage
+
+```sh
+npm run start
+```
+
+## Author
+
+👤 **Jens de Rond <jensderond@gmail.com>**
+
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
