@@ -5,6 +5,7 @@ date: 2019-04-16
 cover: 14-04-19-field-by-night.jpg
 description: |
   Klein hoogtepuntjes waren toch wel de acties en passjes van linksback Collin Van de Velde.
+tags: [overwinning, wedstrijdverslag, 2018-2019]
 ---
 
 ## Dinsdagavond 16 april 2019. Een avond die nog lang in het geheugen gegrift zal staan van de Nederlandse voetballiefhebber.

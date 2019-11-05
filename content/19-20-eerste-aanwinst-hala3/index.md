@@ -7,6 +7,7 @@ description: >-
   Het hing al weken in de lucht, maar de overstap van Joeri Stokkers naar Hala 3
   is nu eindelijk een feit. Hij zal vanaf komend seizoen de kleuren van Hala 3
   verdedigen en tekent een contract voor onbepaalde tijd.
+tags: [transfer, 2019-2020]
 ---
 
 > _“Er komt een moment en dan ga je op zoek naar een nieuwe uitdaging. De mentaliteit van Hala 3 staat mij aan en het plaatje voor de toekomst wat ze mij schetste sprak mij aan.”_

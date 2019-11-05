@@ -4,7 +4,7 @@ date: 2019-05-04
 cover: 040519_field_net_thumbnail.jpg
 description: |
   Vandaag stond er opnieuw een derby op het programma voor de boys. Stavenisse 2 was de tegenstander. Vorig jaar werd deze wedstrijd met een 5-1 overwinning afgesloten...
-tags: [overwinning, wedstrijdverslag]
+tags: [overwinning, wedstrijdverslag, 2018-2019]
 ---
 
 Vandaag stond er opnieuw een derby op het programma voor de boys. Stavenisse 2 was de tegenstander. Vorig jaar werd deze wedstrijd met een 5-1 overwinning afgesloten. Eerder dit seizoen werd er in het roemruchte Stavenisse met 4-1 verloren. Treinert Boy Van de Velde had opnieuw een variant in petto. We begonnen in een 3-5-2 systeem.

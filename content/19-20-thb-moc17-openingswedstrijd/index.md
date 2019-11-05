@@ -6,6 +6,7 @@ cover: hala3-boekt-zege.jpg
 description: >-
   De bezoekers van MOC’17 4 hadden een slechte bekercampagne achter de rug en
   alle wedstrijden hebben zij met dubbele cijfers verloren.
+tags: [wedstrijdverslag, overwinning, 2019-2020]
 ---
 
 **Het totaalvoetbal, in het leven gebracht door Rinus Michels in 1974. Vele teams deden een poging om dit na te bootsen. Vandaag 21 september 2019, hebben de jongens van Hala 3 het laten zien.**

@@ -5,7 +5,7 @@ cover: no-photo-today.png
 description: |
   Vandaag stond de wedstrijd tegen Halsteren 7 op het programma. Dit is zo'n pot
   waar vrijwel alles kan gebeuren...
-tags: [strijdend, wedstrijdverslag]
+tags: [strijdend, wedstrijdverslag, 2018-2019]
 ---
 
 Vandaag stond de wedstrijd tegen Halsteren 7 op het programma.

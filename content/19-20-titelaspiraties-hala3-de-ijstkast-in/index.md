@@ -4,6 +4,7 @@ date: 2019-09-30
 cover: ../no-photo-today.png
 description: >-
   Na de overwinning vorige week op MOC’17 4 leefde de boys op een roze wolk. Afgelopen zaterdag wachtte de Oesterdamderby tegen Rillandia 2 en na de 5-2...
+tags: [wedstrijdverslag, ijskast, 2019-2020]
 ---
 
 TITELASPIRATIES HALA 3 KUNNEN VOORLOPIG DE IJSKAST IN

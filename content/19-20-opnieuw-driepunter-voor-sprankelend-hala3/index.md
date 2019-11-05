@@ -4,9 +4,8 @@ date: 2019-10-27
 cover: ../no-photo-today.png
 description: |
   Dat Hala 3 in de lift zit is een understatement. Het team gaat als een raket en dit is te zien aan de resultaten....
+tags: [wedstrijdverslag, overwinning, 2019-2020]
 ---
-
-OPNIEUW DRIEPUNTER VOOR SPRANKELEND HALA 3
 
 Dat Hala 3 in de lift zit is een understatement. Het team gaat als een raket en dit is te zien aan de resultaten. Na de knappe 1-4 overwinning tegen Alliance 5 stond zaterdagmiddag de wedstrijd tegen Waarde 3 op het programma. De trouwe supporters vanuit alle hoeken van het land waren uitgelopen voor deze kraker.
 

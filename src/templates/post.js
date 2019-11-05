@@ -2,8 +2,8 @@ import React, { useContext } from 'react'
 import { graphql } from 'gatsby'
 import Container from 'gatsby-theme-amsterdam/src/components/Container'
 import Hero from 'gatsby-theme-amsterdam/src/components/Hero'
-import Content from 'gatsby-theme-amsterdam/src/components/Content'
-import Preview from 'gatsby-theme-amsterdam/src/components/Preview'
+import Content from '../gatsby-theme-amsterdam/components/Content'
+import Preview from '../gatsby-theme-amsterdam/components/Preview'
 import SEO from 'gatsby-theme-amsterdam/src/components/SEO'
 import ProgressIndicator from 'gatsby-theme-amsterdam/src/components/ProgressIndicator'
 import OptionsContext from 'gatsby-theme-amsterdam/src/components/OptionsContext'
@@ -25,7 +25,7 @@ const PostTemplate = ({ data, pageContext }) => {
     <>
       <SEO
         title={post.frontmatter.title}
-        description={post.excerpt}
+        description={post.frontmatter.description}
         image={ogImage}
       />
       {options.progressIndicator && <ProgressIndicator />}
@@ -54,7 +54,8 @@ export const pageQuery = graphql`
       frontmatter {
         title
         tags
-        date(formatString: "MMMM DD, YYYY")
+        description
+        date(formatString: "DD MMMM YYYY")
         cover {
           childImageSharp {
             fluid(maxWidth: 1000) {

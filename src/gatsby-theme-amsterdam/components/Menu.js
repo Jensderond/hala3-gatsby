@@ -62,6 +62,7 @@ const Item = styled(motion.li)`
     line-height: 60px;
     opacity: 1 !important;
     visibility: visible !important;
+    font-size: 1.3rem;
     font-weight: ${props => props.theme.fonts.boldWeight};
     position: absolute;
     left: 0;

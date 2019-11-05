@@ -5,6 +5,7 @@ cover: zoektocht-keeper.jpg
 description: >-
   Door het super seizoen van Kjeld N. was er veel belangstelling in de jonge
   doelverdediger. Na een flinke onderhandeling is Hala 3 eruit gekomen met...
+tags: [transfer, 2019-2020]
 ---
 
 ## De zoektocht naar een nieuwe keeper voor de jongens van Hala 3 is begonnen.

@@ -6,6 +6,7 @@ cover: cupfighters.jpg
 description: >-
   Je kent het wel, die spannende avondwedstrijden waarbij de beleving er vanaf
   spat! Vanavond was helaas niet zo..
+tags: [wedstrijdverslag, beker, 2019-2020]
 ---
 
 Je kent het wel, die spannende avondwedstrijden waarbij de beleving er vanaf spat! Vanavond was helaas niet zo..
