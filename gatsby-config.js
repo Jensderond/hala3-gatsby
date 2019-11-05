@@ -5,7 +5,7 @@ module.exports = {
       'Tholense boys 3, een team vol vrienden en gezelligheid. Een familie onderling. Van hoogstaand voetbal hoef je niet uit te gaan, maar gezelligheid staat voorop. HALA 3!',
     url: 'https://www.hala3.nl',
     author: 'Tholense Boys 3',
-    intro: 'Laatste nieuws 🍺⚽',
+    intro: 'Laatste nieuws',
     postsPerPage: 12,
     menuLinks: [
       {

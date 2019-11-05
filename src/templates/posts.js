@@ -1,7 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Intro from 'gatsby-theme-amsterdam/src/components/Intro'
+import Intro from '../gatsby-theme-amsterdam/components/Intro'
 import PostList from '../gatsby-theme-amsterdam/components/PostList'
+import Emoji from '../gatsby-theme-amsterdam/components/Emoji'
 import SEO from 'gatsby-theme-amsterdam/src/components/SEO'
 import Pagination from 'gatsby-theme-amsterdam/src/components/Pagination'
 import Container from 'gatsby-theme-amsterdam/src/components/Container'
@@ -22,7 +23,12 @@ const PostsPage = ({ data, pageContext }) => {
     <>
       <SEO title="Home" image={ogImage} />
       <Container fullWidth noPadding>
-        {intro && <Intro text={intro} context={pageContext} />}
+        {intro && (
+          <Intro text={intro} context={pageContext}>
+            <Emoji type="beer" />
+            <Emoji type="soccer" />
+          </Intro>
+        )}
         {posts.length > 0 && <PostList posts={posts} context={pageContext} />}
       </Container>
       <Pagination context={pageContext} />
