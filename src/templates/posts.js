@@ -55,7 +55,7 @@ export const postsQuery = graphql`
             title
             tags
             description
-            date(formatString: "DD MMMM YYYY")
+            date(formatString: "DD MMMM YYYY", locale: "nl-NL")
             cover {
               childImageSharp {
                 fluid(maxWidth: 1000) {

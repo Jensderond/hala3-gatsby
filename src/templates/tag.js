@@ -51,7 +51,7 @@ export const tagQuery = graphql`
           frontmatter {
             title
             tags
-            date(formatString: "DD MMMM YYYY")
+            date(formatString: "DD MMMM YYYY", locale: "nl-NL")
             cover {
               childImageSharp {
                 fluid(maxWidth: 1000) {
