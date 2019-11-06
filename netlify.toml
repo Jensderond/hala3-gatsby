@@ -1,6 +1,6 @@
 [build]
-  base = "site/"
-  command = "gatsby build"
+  base = "/"
+  command = "yarn build"
   publish = "site/public"
 [build.environment]
   NODE_VERSION = "10"
