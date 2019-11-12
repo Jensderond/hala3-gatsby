@@ -1,0 +1,28 @@
+export const topScorer1920 = [
+  { name: 'Ayoub', goals: 4, beers: 0, assists: 0, beerRatio: 0 },
+  { name: 'Boris', goals: 0, beers: 0, assists: 0, beerRatio: 0.5 },
+  { name: 'Boy', goals: 0, beers: 0, assists: 0, beerRatio: 0.85 },
+  { name: 'Collin', goals: 0, beers: 0, assists: 0, beerRatio: 0.7 },
+  {
+    name: 'Yordi a.k.a Dirk Kuyt',
+    goals: 1,
+    beers: 0,
+    assists: 0,
+    beerRatio: 0,
+  },
+  { name: 'Himiet', goals: 3, beers: 0, assists: 0, beerRatio: 0 },
+  { name: 'Jeanot', goals: 0, beers: 0, assists: 0, beerRatio: 0.65 },
+  { name: 'Jens 0', goals: 1, beers: 0, assists: 0, beerRatio: 0.75 },
+  { name: 'Jens R', goals: 3, beers: 0, assists: 0, beerRatio: 0.65 },
+  { name: 'Jeroen', goals: -1, beers: 0, assists: 0, beerRatio: 0.8 },
+  { name: 'Joeri', goals: 0, beers: 0, assists: 0, beerRatio: 0.8 },
+  { name: 'Laith', goals: 0, beers: 0, assists: 0, beerRatio: 0.2 },
+  { name: 'Marijn', goals: 0, beers: 0, assists: 0, beerRatio: 0 },
+  { name: 'Mark', goals: 0, beers: 0, assists: 0, beerRatio: 0.8 },
+  { name: 'Omar', goals: 0, beers: 0, assists: 0, beerRatio: 0 },
+  { name: 'Robin', goals: 5, beers: 0, assists: 0, beerRatio: 0.85 },
+  { name: 'Ruben', goals: 0, beers: 0, assists: 0, beerRatio: 0.5 },
+  { name: 'Samih', goals: 1, beers: 0, assists: 0, beerRatio: 0 },
+  { name: 'Sander', goals: 0, beers: 0, assists: 0, beerRatio: 0.5 },
+]
+export const gamesPlayed1920 = { played: 8, won: 3, lost: 5 }

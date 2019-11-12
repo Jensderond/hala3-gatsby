@@ -1,6 +1,6 @@
-<h1 align="center">Welcome to nuxt-hala3 👋</h1>
+<h1 align="center">Welcome to hala3 (gatsby) 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/node-%3E%3D8.0.0-blue.svg" />
   <img src="https://img.shields.io/badge/npm-%3E%3D5.0.0-blue.svg" />
 </p>

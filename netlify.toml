@@ -1,0 +1,7 @@
+[build]
+  base = "/"
+  command = "yarn build"
+  publish = "site/public"
+[build.environment]
+  NODE_VERSION = "10"
+  YARN_VERSION = "1.19.1"
