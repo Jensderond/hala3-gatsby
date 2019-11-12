@@ -20,14 +20,21 @@ const soccerStyle = {
   backgroundPosition: '-14.28571% 0',
 }
 
+const nerdStyle = {
+  height: '23px',
+  width: '23px',
+  backgroundPosition: '-71.2857% 0',
+}
+
 const Emoji = props => {
   return (
     <>
       {props.type === 'beer' && <Wrapper style={beerStyle} />}
       {props.type === 'soccer' && <Wrapper style={soccerStyle} />}
-      {props.type !== 'soccer' && props.type !== 'beer' && (
-        <Wrapper style={beerStyle} />
-      )}
+      {props.type === 'nerd' && <Wrapper style={nerdStyle} />}
+      {props.type !== 'soccer' &&
+        props.type !== 'beer' &&
+        props.type !== 'nerd' && <Wrapper style={beerStyle} />}
     </>
   )
 }

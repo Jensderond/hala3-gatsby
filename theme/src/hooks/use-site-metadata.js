@@ -10,6 +10,7 @@ export const useSiteMetadata = () => {
             description
             intro
             author
+            madeByNerd
             menuLinks {
               name
               slug

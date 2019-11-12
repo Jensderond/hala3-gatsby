@@ -4,13 +4,26 @@ module.exports = {
     description:
       'Tholense boys 3, een team vol vrienden en gezelligheid. Een familie onderling. Van hoogstaand voetbal hoef je niet uit te gaan, maar gezelligheid staat voorop. HALA 3!',
     url: 'https://www.hala3.nl',
-    author: 'Tholense Boys 3',
+    author: 'Tholense Boys 3 a.k.a. Hala 3',
+    madeByNerd: 'Jens de Rond',
     intro: 'Laatste nieuws',
     postsPerPage: 12,
     menuLinks: [
       {
         name: 'Hala 3',
         slug: '/',
+      },
+      {
+        name: 'Over ons',
+        slug: '/over-ons',
+      },
+      {
+        name: 'Topscoorders',
+        slug: '/topscoorders',
+      },
+      {
+        name: 'Wedstrijdverslagen',
+        slug: '/tag/wedstrijdverslag/',
       },
       {
         name: 'Facebook',

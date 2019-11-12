@@ -9,6 +9,7 @@ module.exports = options => {
       description: '',
       url: '',
       author: '',
+      madeByNerd: '',
       intro: '',
       menuLinks: [
         {

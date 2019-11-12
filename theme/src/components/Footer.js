@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Emoji from './Emoji'
 import { useSiteMetadata } from '../hooks/use-site-metadata'
 
 const Wrapper = styled.footer`
@@ -59,7 +60,7 @@ const Item = styled.li`
 `
 
 const Footer = props => {
-  const { author, footerLinks } = useSiteMetadata()
+  const { author, footerLinks, madeByNerd } = useSiteMetadata()
 
   return (
     <Wrapper>
@@ -78,6 +79,11 @@ const Footer = props => {
             ))}
           </List>
         )}
+
+        <Copyright>
+          Made by {madeByNerd}
+          <Emoji type="nerd" />
+        </Copyright>
       </Container>
     </Wrapper>
   )

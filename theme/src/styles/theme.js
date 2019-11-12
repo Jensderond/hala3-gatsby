@@ -1,17 +1,17 @@
 export default {
   colors: {
-    base: '#292929',
-    secondary: '#686461',
+    base: '#0d1219',
+    secondary: '#afafaf',
     tertiary: '#958E8E',
-    highlight: '#C29967',
+    highlight: '#fbe101',
     strong: '#f3d179',
-    background: '#F5F0EB',
+    background: '#141f2d',
     border: '#DCD8D3',
-    button: '#E9E4DF',
+    button: '#0d1219',
     buttonHover: '#373737',
-    text: '#292929',
+    text: '#c3c3c3',
     link: '#c3c3c3',
-    code: '#E9E5E0',
+    code: '#2D3947',
   },
   fonts: {
     body:
