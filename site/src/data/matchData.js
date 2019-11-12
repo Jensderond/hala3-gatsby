@@ -13,7 +13,7 @@ export const topScorer1920 = [
   { name: 'Himiet', goals: 3, beers: 0, assists: 0, beerRatio: 0 },
   { name: 'Jeanot', goals: 0, beers: 0, assists: 0, beerRatio: 0.65 },
   { name: 'Jens 0', goals: 1, beers: 0, assists: 0, beerRatio: 0.75 },
-  { name: 'Jens R', goals: 3, beers: 0, assists: 0, beerRatio: 0.65 },
+  { name: 'Jens R', goals: 2, beers: 0, assists: 0, beerRatio: 0.65 },
   { name: 'Jeroen', goals: -1, beers: 0, assists: 0, beerRatio: 0.8 },
   { name: 'Joeri', goals: 0, beers: 0, assists: 0, beerRatio: 0.8 },
   { name: 'Laith', goals: 0, beers: 0, assists: 0, beerRatio: 0.2 },
