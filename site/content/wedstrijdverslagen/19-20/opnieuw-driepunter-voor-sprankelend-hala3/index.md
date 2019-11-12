@@ -1,7 +1,7 @@
 ---
 title: Opnieuw driepunter voor sprankelend Hala 3
 date: 2019-10-27
-cover: ../no-photo-today.png
+cover: ../../no-photo-today.png
 description: |
   Dat Hala 3 in de lift zit is een understatement. Het team gaat als een raket en dit is te zien aan de resultaten....
 tags: [wedstrijdverslag, overwinning, 2019-2020]

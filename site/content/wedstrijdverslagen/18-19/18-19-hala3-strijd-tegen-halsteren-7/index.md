@@ -1,7 +1,7 @@
 ---
 title: Hala 3 gaat de strijd aan met Halsteren 7
 date: 2019-06-04
-cover: no-photo-today.png
+cover: ../../no-photo-today.png
 description: |
   Vandaag stond de wedstrijd tegen Halsteren 7 op het programma. Dit is zo'n pot
   waar vrijwel alles kan gebeuren...

@@ -5,3 +5,9 @@
 [build.environment]
   NODE_VERSION = "10"
   YARN_VERSION = "1.19.1"
+
+[[redirects]]
+  from = "/wedstrijdverslagen"
+  to = "/tag/wedstrijdverslag"
+  status = 301
+  force = false

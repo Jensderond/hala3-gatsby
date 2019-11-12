@@ -1,7 +1,7 @@
 ---
 title: Vlaggenschip Tholen boekt overtuigende zege in Roosendaal!
 date: 2019-10-12
-cover: ../no-photo-today.png
+cover: ../../no-photo-today.png
 description: |
   Na een tweetal nederlagen tegen Rillandia 2 en Fc Bergen 5 wachtte vandaag in Roosendaal de uitwedstrijd tegen Alliance 5....
 tags: [wedstrijdverslag, overwinning, 2019-2020]
