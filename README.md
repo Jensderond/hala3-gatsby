@@ -9,7 +9,7 @@
 ## Prerequisites
 
 - node >=10.16.1
-- npm >=1.19.0
+- yarn >=1.19.0
 
 ## Install
 
