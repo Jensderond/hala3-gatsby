@@ -13,7 +13,7 @@
   "devDependencies": {
     "eslint": "6.6.0",
     "eslint-config-gatsby-standard": "^2.2.0",
-    "prettier": "^1.18.2",
+    "prettier": "^1.19.1",
     "stylelint": "11.1.1",
     "stylelint-config-prettier": "^6.0.0",
     "stylelint-config-standard": "^19.0.0",
