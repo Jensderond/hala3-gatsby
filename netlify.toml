@@ -7,7 +7,20 @@
   YARN_VERSION = "1.19.1"
 
 [[redirects]]
-  from = "/wedstrijdverslagen"
-  to = "/tag/wedstrijdverslag"
+  from = "/nieuws"
+  to = "/"
   status = 301
   force = false
+
+[[redirects]]
+  from = "/blog/thb-moc17-21-09-19"
+  to = "/nieuws/19-20/thb-moc17-openingswedstrijd"
+  status = 301
+[[redirects]]
+  from = "/blog/19-20-eerste-aanwinst-hala3"
+  to = "/nieuws/19-20/eerste-aanwinst-hala3"
+  status = 301
+[[redirects]]
+  from = "/blog/19-20-zoektocht-nieuwe-keeper"
+  to = "/nieuws/19-20/zoektocht-nieuwe-keeper"
+  status = 301
