@@ -33,7 +33,6 @@ const AboutPage = ({ data }) => {
           alt=""
           title=""
         />
-        <Copyright>&copy; Tonny Bogers</Copyright>
       </Content>
     </Container>
   )
