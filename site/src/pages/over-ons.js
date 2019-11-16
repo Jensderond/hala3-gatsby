@@ -43,7 +43,7 @@ export default AboutPage
 
 export const query = graphql`
   query {
-    file(relativePath: { eq: "images/oude-teamfoto.jpg" }) {
+    file(relativePath: { eq: "images/DE935931-F7B7-4F4E-AF10-1F59B2491BE4.jpeg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid_withWebp
