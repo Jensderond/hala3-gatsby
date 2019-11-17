@@ -25,4 +25,4 @@ export const topScorer1920 = [
   { name: 'Samih', goals: 1, beers: 0, assists: 0, beerRatio: 0 },
   { name: 'Sander', goals: 0, beers: 0, assists: 0, beerRatio: 0.5 },
 ]
-export const gamesPlayed1920 = { played: 8, won: 3, lost: 5 }
+export const gamesPlayed1920 = { played: 9, won: 3, lost: 6 }
