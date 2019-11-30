@@ -1,5 +1,5 @@
 export const topScorer1920 = [
-  { name: 'Ayoub', goals: 4, beers: 0, assists: 0, beerRatio: 0 },
+  { name: 'Ayoub', goals: 5, beers: 0, assists: 0, beerRatio: 0 },
   { name: 'Boris', goals: 0, beers: 0, assists: 0, beerRatio: 0.5 },
   { name: 'Boy', goals: 0, beers: 0, assists: 0, beerRatio: 0.85 },
   { name: 'Collin', goals: 0, beers: 0, assists: 0, beerRatio: 0.7 },
@@ -25,4 +25,4 @@ export const topScorer1920 = [
   { name: 'Samih', goals: 1, beers: 0, assists: 0, beerRatio: 0 },
   { name: 'Sander', goals: 0, beers: 0, assists: 0, beerRatio: 0.5 },
 ]
-export const gamesPlayed1920 = { played: 9, won: 3, lost: 6 }
+export const gamesPlayed1920 = { played: 10, won: 3, lost: 7 }
