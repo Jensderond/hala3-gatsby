@@ -18,7 +18,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
     "framer-motion": "^1.6.15",
-    "gatsby": "^2.17.17",
+    "gatsby": "^2.19.1",
     "gatsby-awesome-pagination": "^0.3.5",
     "gatsby-image": "^2.2.33",
     "gatsby-plugin-offline": "^3.0.21",
@@ -39,7 +39,7 @@
     "styled-components": "^4.4.1"
   },
   "peerDependencies": {
-    "gatsby": "^2.17.17",
+    "gatsby": "^2.19.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
