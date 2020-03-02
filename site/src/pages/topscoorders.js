@@ -20,7 +20,7 @@ const TopScorersPage = () => {
       <Content>
         <h1>Topscoorders Hala 3</h1>
         <p>Hieronder de kort en bondige statistieken van onze mannen!</p>
-
+        <span>Let op: deze statistieken zijn verre van actueel.</span> 
         <h3>
           <strong>Topscoorders 2019-2020</strong>
         </h3>
